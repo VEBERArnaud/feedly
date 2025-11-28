@@ -13,7 +13,6 @@
       { "title": "Deno Blog", "xmlUrl": "https://deno.com/feed", "htmlUrl": "https://deno.com/blog" },
       { "title": "Antfu Blog", "xmlUrl": "https://antfu.me/feed.xml", "htmlUrl": "https://antfu.me/" },
       { "title": "Kent C. Dodds Blog", "xmlUrl": "https://kentcdodds.com/blog/rss.xml", "htmlUrl": "https://kentcdodds.com/blog" },
-      { "title": "Bytes", "xmlUrl": "https://bytes.dev/rss", "htmlUrl": "https://bytes.dev/" },
       { "title": "Smashing Magazine", "xmlUrl": "https://www.smashingmagazine.com/feed/", "htmlUrl": "https://www.smashingmagazine.com/" },
       { "title": "Josh W Comeau", "xmlUrl": "https://www.joshwcomeau.com/rss.xml", "htmlUrl": "https://www.joshwcomeau.com/" }
     ],
@@ -50,8 +49,7 @@
       { "title": "DuckDB Blog", "xmlUrl": "https://duckdb.org/feed.xml", "htmlUrl": "https://duckdb.org/blog" },
       { "title": "DeepMind", "xmlUrl": "https://deepmind.google/blog/rss.xml", "htmlUrl": "https://deepmind.google/" },
       { "title": "OpenAI Blog", "xmlUrl": "https://openai.com/blog/rss/", "htmlUrl": "https://openai.com/blog" },
-      { "title": "Hugging Face Blog", "xmlUrl": "https://huggingface.co/blog/feed.xml", "htmlUrl": "https://huggingface.co/blog" },
-      { "title": "Anthropic News", "xmlUrl": "https://www.anthropic.com/feed.xml", "htmlUrl": "https://www.anthropic.com/news" }
+      { "title": "Hugging Face Blog", "xmlUrl": "https://huggingface.co/blog/feed.xml", "htmlUrl": "https://huggingface.co/blog" }
     ],
     "Security": [
       { "title": "Krebs on Security", "xmlUrl": "https://krebsonsecurity.com/feed/", "htmlUrl": "https://krebsonsecurity.com/" },
