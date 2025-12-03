@@ -1,110 +1,378 @@
 {
   "Tech": {
     "Web & Software": [
-      { "title": "CSS-Tricks", "xmlUrl": "https://css-tricks.com/feed/", "htmlUrl": "https://css-tricks.com/" },
-      { "title": "JavaScript Weekly", "xmlUrl": "https://javascriptweekly.com/rss", "htmlUrl": "https://javascriptweekly.com/" },
-      { "title": "The New Stack", "xmlUrl": "https://thenewstack.io/feed/", "htmlUrl": "https://thenewstack.io/" },
-      { "title": "The Pragmatic Engineer", "xmlUrl": "https://blog.pragmaticengineer.com/feed/", "htmlUrl": "https://blog.pragmaticengineer.com/" },
-      { "title": "Frontend Focus", "xmlUrl": "https://frontendfoc.us/rss", "htmlUrl": "https://frontendfoc.us/" },
-      { "title": "React Status", "xmlUrl": "https://react.statuscode.com/rss", "htmlUrl": "https://react.statuscode.com/" },
-      { "title": "TypeScript Weekly", "xmlUrl": "https://us14.campaign-archive.com/feed?u=809daf9442ece0a92a3d65f99&id=5693c0ed42", "htmlUrl": "https://typescript-weekly.com/" },
-      { "title": "Node Weekly", "xmlUrl": "https://nodeweekly.com/rss", "htmlUrl": "https://nodeweekly.com/" },
-      { "title": "Nx Blog", "xmlUrl": "https://nx.dev/blog/rss.xml", "htmlUrl": "https://nx.dev/blog" },
-      { "title": "Deno Blog", "xmlUrl": "https://deno.com/feed", "htmlUrl": "https://deno.com/blog" },
-      { "title": "Antfu Blog", "xmlUrl": "https://antfu.me/feed.xml", "htmlUrl": "https://antfu.me/" },
-      { "title": "Kent C. Dodds Blog", "xmlUrl": "https://kentcdodds.com/blog/rss.xml", "htmlUrl": "https://kentcdodds.com/blog" },
-      { "title": "Smashing Magazine", "xmlUrl": "https://www.smashingmagazine.com/feed/", "htmlUrl": "https://www.smashingmagazine.com/" },
-      { "title": "Josh W Comeau", "xmlUrl": "https://www.joshwcomeau.com/rss.xml", "htmlUrl": "https://www.joshwcomeau.com/" }
+      {
+        "title": "CSS-Tricks",
+        "xmlUrl": "https://css-tricks.com/feed/",
+        "htmlUrl": "https://css-tricks.com/"
+      },
+      {
+        "title": "JavaScript Weekly",
+        "xmlUrl": "https://javascriptweekly.com/rss",
+        "htmlUrl": "https://javascriptweekly.com/"
+      },
+      {
+        "title": "The New Stack",
+        "xmlUrl": "https://thenewstack.io/feed/",
+        "htmlUrl": "https://thenewstack.io/"
+      },
+      {
+        "title": "The Pragmatic Engineer",
+        "xmlUrl": "https://blog.pragmaticengineer.com/feed/",
+        "htmlUrl": "https://blog.pragmaticengineer.com/"
+      },
+      {
+        "title": "Frontend Focus",
+        "xmlUrl": "https://frontendfoc.us/rss",
+        "htmlUrl": "https://frontendfoc.us/"
+      },
+      {
+        "title": "React Status",
+        "xmlUrl": "https://react.statuscode.com/rss",
+        "htmlUrl": "https://react.statuscode.com/"
+      },
+      {
+        "title": "TypeScript Weekly",
+        "xmlUrl": "https://us14.campaign-archive.com/feed?u=809daf9442ece0a92a3d65f99&id=5693c0ed42",
+        "htmlUrl": "https://typescript-weekly.com/"
+      },
+      {
+        "title": "Node Weekly",
+        "xmlUrl": "https://nodeweekly.com/rss",
+        "htmlUrl": "https://nodeweekly.com/"
+      },
+      {
+        "title": "Nx Blog",
+        "xmlUrl": "https://nx.dev/blog/rss.xml",
+        "htmlUrl": "https://nx.dev/blog"
+      },
+      {
+        "title": "Deno Blog",
+        "xmlUrl": "https://deno.com/feed",
+        "htmlUrl": "https://deno.com/blog"
+      },
+      {
+        "title": "Antfu Blog",
+        "xmlUrl": "https://antfu.me/feed.xml",
+        "htmlUrl": "https://antfu.me/"
+      },
+      {
+        "title": "Kent C. Dodds Blog",
+        "xmlUrl": "https://kentcdodds.com/blog/rss.xml",
+        "htmlUrl": "https://kentcdodds.com/blog"
+      },
+      {
+        "title": "Smashing Magazine",
+        "xmlUrl": "https://www.smashingmagazine.com/feed/",
+        "htmlUrl": "https://www.smashingmagazine.com/"
+      },
+      {
+        "title": "Josh W Comeau",
+        "xmlUrl": "https://www.joshwcomeau.com/rss.xml",
+        "htmlUrl": "https://www.joshwcomeau.com/"
+      }
     ],
     "Cloud & DevOps": [
-      { "title": "AWS Architecture Blog", "xmlUrl": "https://aws.amazon.com/blogs/architecture/feed/", "htmlUrl": "https://aws.amazon.com/blogs/architecture/" },
-      { "title": "AWS DevOps & Developer Productivity Blog", "xmlUrl": "https://aws.amazon.com/blogs/devops/feed/", "htmlUrl": "https://aws.amazon.com/blogs/devops/" },
-      { "title": "AWS Recent Announcements", "xmlUrl": "https://aws.amazon.com/about-aws/whats-new/recent/feed/", "htmlUrl": "https://aws.amazon.com/about-aws/whats-new/" },
-      { "title": "cloudonaut.io", "xmlUrl": "https://cloudonaut.io/feed/", "htmlUrl": "https://cloudonaut.io/" },
-      { "title": "Google Developers Blog", "xmlUrl": "https://developers.googleblog.com/feeds/posts/default", "htmlUrl": "https://developers.googleblog.com/" },
-      { "title": "HashiCorp Blog", "xmlUrl": "https://www.hashicorp.com/blog/feed.xml", "htmlUrl": "https://www.hashicorp.com/blog" },
-      { "title": "Last Week in AWS", "xmlUrl": "https://www.lastweekinaws.com/feed/", "htmlUrl": "https://www.lastweekinaws.com/" },
-      { "title": "AWS News Blog", "xmlUrl": "https://aws.amazon.com/blogs/aws/feed/", "htmlUrl": "https://aws.amazon.com/blogs/aws/" },
-      { "title": "Google Cloud Blog", "xmlUrl": "https://cloudblog.withgoogle.com/rss/", "htmlUrl": "https://cloud.google.com/blog" },
-      { "title": "Azure Blog", "xmlUrl": "https://azurecomcdn.azureedge.net/en-us/blog/feed", "htmlUrl": "https://azure.microsoft.com/en-us/blog/" },
-      { "title": "Kubernetes Blog", "xmlUrl": "https://kubernetes.io/feed.xml", "htmlUrl": "https://kubernetes.io/blog/" },
-      { "title": "Argo Blog", "xmlUrl": "https://blog.argoproj.io/feed", "htmlUrl": "https://blog.argoproj.io/" },
-      { "title": "Grafana Blog", "xmlUrl": "https://grafana.com/blog/index.xml", "htmlUrl": "https://grafana.com/blog/" },
-      { "title": "Datadog Blog", "xmlUrl": "https://www.datadoghq.com/blog/feed/", "htmlUrl": "https://www.datadoghq.com/blog/" },
-      { "title": "CNCF Blog", "xmlUrl": "https://www.cncf.io/blog/feed/", "htmlUrl": "https://www.cncf.io/blog/" },
-      { "title": "Docker Blog", "xmlUrl": "https://www.docker.com/blog/feed/", "htmlUrl": "https://www.docker.com/blog/" }
+      {
+        "title": "AWS Architecture Blog",
+        "xmlUrl": "https://aws.amazon.com/blogs/architecture/feed/",
+        "htmlUrl": "https://aws.amazon.com/blogs/architecture/"
+      },
+      {
+        "title": "AWS DevOps & Developer Productivity Blog",
+        "xmlUrl": "https://aws.amazon.com/blogs/devops/feed/",
+        "htmlUrl": "https://aws.amazon.com/blogs/devops/"
+      },
+      {
+        "title": "AWS Recent Announcements",
+        "xmlUrl": "https://aws.amazon.com/about-aws/whats-new/recent/feed/",
+        "htmlUrl": "https://aws.amazon.com/about-aws/whats-new/"
+      },
+      {
+        "title": "cloudonaut.io",
+        "xmlUrl": "https://cloudonaut.io/feed/",
+        "htmlUrl": "https://cloudonaut.io/"
+      },
+      {
+        "title": "Google Developers Blog",
+        "xmlUrl": "https://developers.googleblog.com/feeds/posts/default",
+        "htmlUrl": "https://developers.googleblog.com/"
+      },
+      {
+        "title": "HashiCorp Blog",
+        "xmlUrl": "https://www.hashicorp.com/blog/feed.xml",
+        "htmlUrl": "https://www.hashicorp.com/blog"
+      },
+      {
+        "title": "Last Week in AWS",
+        "xmlUrl": "https://www.lastweekinaws.com/feed/",
+        "htmlUrl": "https://www.lastweekinaws.com/"
+      },
+      {
+        "title": "AWS News Blog",
+        "xmlUrl": "https://aws.amazon.com/blogs/aws/feed/",
+        "htmlUrl": "https://aws.amazon.com/blogs/aws/"
+      },
+      {
+        "title": "Google Cloud Blog",
+        "xmlUrl": "https://cloudblog.withgoogle.com/rss/",
+        "htmlUrl": "https://cloud.google.com/blog"
+      },
+      {
+        "title": "Azure Blog",
+        "xmlUrl": "https://azurecomcdn.azureedge.net/en-us/blog/feed",
+        "htmlUrl": "https://azure.microsoft.com/en-us/blog/"
+      },
+      {
+        "title": "Kubernetes Blog",
+        "xmlUrl": "https://kubernetes.io/feed.xml",
+        "htmlUrl": "https://kubernetes.io/blog/"
+      },
+      {
+        "title": "Argo Blog",
+        "xmlUrl": "https://blog.argoproj.io/feed",
+        "htmlUrl": "https://blog.argoproj.io/"
+      },
+      {
+        "title": "Grafana Blog",
+        "xmlUrl": "https://grafana.com/blog/index.xml",
+        "htmlUrl": "https://grafana.com/blog/"
+      },
+      {
+        "title": "Datadog Blog",
+        "xmlUrl": "https://www.datadoghq.com/blog/feed/",
+        "htmlUrl": "https://www.datadoghq.com/blog/"
+      },
+      {
+        "title": "CNCF Blog",
+        "xmlUrl": "https://www.cncf.io/blog/feed/",
+        "htmlUrl": "https://www.cncf.io/blog/"
+      },
+      {
+        "title": "Docker Blog",
+        "xmlUrl": "https://www.docker.com/blog/feed/",
+        "htmlUrl": "https://www.docker.com/blog/"
+      }
     ],
     "Architecture & Engineering": [
-      { "title": "Martin Fowler", "xmlUrl": "https://martinfowler.com/feed.atom", "htmlUrl": "https://martinfowler.com/" },
-      { "title": "Netflix TechBlog", "xmlUrl": "https://netflixtechblog.com/feed", "htmlUrl": "https://netflixtechblog.com/" },
-      { "title": "Uber Engineering Blog", "xmlUrl": "https://eng.uber.com/feed/", "htmlUrl": "https://eng.uber.com/" },
-      { "title": "High Scalability", "xmlUrl": "http://highscalability.com/rss", "htmlUrl": "http://highscalability.com/" },
-      { "title": "InfoQ", "xmlUrl": "https://feed.infoq.com/", "htmlUrl": "https://www.infoq.com/" },
-      { "title": "Dropbox Tech", "xmlUrl": "https://dropbox.tech/feed", "htmlUrl": "https://dropbox.tech/" },
-      { "title": "Spotify Engineering", "xmlUrl": "https://engineering.atspotify.com/feed/", "htmlUrl": "https://engineering.atspotify.com/" },
-      { "title": "Airbnb Engineering", "xmlUrl": "https://medium.com/feed/airbnb-engineering", "htmlUrl": "https://medium.com/airbnb-engineering" },
-      { "title": "Stripe Blog", "xmlUrl": "https://stripe.com/blog/feed.rss", "htmlUrl": "https://stripe.com/blog" }
+      {
+        "title": "Martin Fowler",
+        "xmlUrl": "https://martinfowler.com/feed.atom",
+        "htmlUrl": "https://martinfowler.com/"
+      },
+      {
+        "title": "Netflix TechBlog",
+        "xmlUrl": "https://netflixtechblog.com/feed",
+        "htmlUrl": "https://netflixtechblog.com/"
+      },
+      {
+        "title": "Uber Engineering Blog",
+        "xmlUrl": "https://eng.uber.com/feed/",
+        "htmlUrl": "https://eng.uber.com/"
+      },
+      {
+        "title": "High Scalability",
+        "xmlUrl": "http://highscalability.com/rss",
+        "htmlUrl": "http://highscalability.com/"
+      },
+      {
+        "title": "InfoQ",
+        "xmlUrl": "https://feed.infoq.com/",
+        "htmlUrl": "https://www.infoq.com/"
+      },
+      {
+        "title": "Dropbox Tech",
+        "xmlUrl": "https://dropbox.tech/feed",
+        "htmlUrl": "https://dropbox.tech/"
+      },
+      {
+        "title": "Spotify Engineering",
+        "xmlUrl": "https://engineering.atspotify.com/feed/",
+        "htmlUrl": "https://engineering.atspotify.com/"
+      },
+      {
+        "title": "Airbnb Engineering",
+        "xmlUrl": "https://medium.com/feed/airbnb-engineering",
+        "htmlUrl": "https://medium.com/airbnb-engineering"
+      },
+      {
+        "title": "Stripe Blog",
+        "xmlUrl": "https://stripe.com/blog/feed.rss",
+        "htmlUrl": "https://stripe.com/blog"
+      }
     ],
     "Data & AI": [
-      { "title": "DuckDB Blog", "xmlUrl": "https://duckdb.org/feed.xml", "htmlUrl": "https://duckdb.org/blog" },
-      { "title": "DeepMind", "xmlUrl": "https://deepmind.google/blog/rss.xml", "htmlUrl": "https://deepmind.google/" },
-      { "title": "OpenAI Blog", "xmlUrl": "https://openai.com/blog/rss/", "htmlUrl": "https://openai.com/blog" },
-      { "title": "Hugging Face Blog", "xmlUrl": "https://huggingface.co/blog/feed.xml", "htmlUrl": "https://huggingface.co/blog" }
+      {
+        "title": "DuckDB Blog",
+        "xmlUrl": "https://duckdb.org/feed.xml",
+        "htmlUrl": "https://duckdb.org/blog"
+      },
+      {
+        "title": "DeepMind",
+        "xmlUrl": "https://deepmind.google/blog/rss.xml",
+        "htmlUrl": "https://deepmind.google/"
+      },
+      {
+        "title": "OpenAI Blog",
+        "xmlUrl": "https://openai.com/blog/rss/",
+        "htmlUrl": "https://openai.com/blog"
+      },
+      {
+        "title": "Hugging Face Blog",
+        "xmlUrl": "https://huggingface.co/blog/feed.xml",
+        "htmlUrl": "https://huggingface.co/blog"
+      }
     ],
     "Security": [
-      { "title": "Krebs on Security", "xmlUrl": "https://krebsonsecurity.com/feed/", "htmlUrl": "https://krebsonsecurity.com/" },
-      { "title": "Snyk Blog", "xmlUrl": "https://snyk.io/blog/feed/", "htmlUrl": "https://snyk.io/blog" },
-      { "title": "Cloud Security Podcast", "xmlUrl": "https://cloud.withgoogle.com/cloudsecurity/podcast/feed/", "htmlUrl": "https://cloud.withgoogle.com/cloudsecurity/podcast/" },
-      { "title": "Troy Hunt", "xmlUrl": "https://www.troyhunt.com/rss/", "htmlUrl": "https://www.troyhunt.com/" },
-      { "title": "The Hacker News", "xmlUrl": "https://feeds.feedburner.com/TheHackersNews", "htmlUrl": "https://thehackernews.com/" }
+      {
+        "title": "Krebs on Security",
+        "xmlUrl": "https://krebsonsecurity.com/feed/",
+        "htmlUrl": "https://krebsonsecurity.com/"
+      },
+      {
+        "title": "Snyk Blog",
+        "xmlUrl": "https://snyk.io/blog/feed/",
+        "htmlUrl": "https://snyk.io/blog"
+      },
+      {
+        "title": "Cloud Security Podcast",
+        "xmlUrl": "https://cloud.withgoogle.com/cloudsecurity/podcast/feed/",
+        "htmlUrl": "https://cloud.withgoogle.com/cloudsecurity/podcast/"
+      },
+      {
+        "title": "Troy Hunt",
+        "xmlUrl": "https://www.troyhunt.com/rss/",
+        "htmlUrl": "https://www.troyhunt.com/"
+      },
+      {
+        "title": "The Hacker News",
+        "xmlUrl": "https://feeds.feedburner.com/TheHackersNews",
+        "htmlUrl": "https://thehackernews.com/"
+      }
     ]
   },
   "Business": {
     "Freelance & Productivity": [
-      { "title": "Austin Kleon", "xmlUrl": "https://austinkleon.com/feed/", "htmlUrl": "https://austinkleon.com/" }
+      {
+        "title": "Austin Kleon",
+        "xmlUrl": "https://austinkleon.com/feed/",
+        "htmlUrl": "https://austinkleon.com/"
+      }
     ],
     "Market & Finance": [
-      { "title": "Financial Times Markets", "xmlUrl": "https://www.ft.com/markets?format=rss", "htmlUrl": "https://www.ft.com/markets" },
-      { "title": "Morning Brew Markets", "xmlUrl": "https://www.morningbrew.com/feed", "htmlUrl": "https://www.morningbrew.com/markets" }
+      {
+        "title": "Financial Times Markets",
+        "xmlUrl": "https://www.ft.com/markets?format=rss",
+        "htmlUrl": "https://www.ft.com/markets"
+      },
+      {
+        "title": "Morning Brew Markets",
+        "xmlUrl": "https://www.morningbrew.com/feed",
+        "htmlUrl": "https://www.morningbrew.com/markets"
+      }
     ],
     "SaaS & Entrepreneurship": [
-      { "title": "SaaStr", "xmlUrl": "https://www.saastr.com/feed/", "htmlUrl": "https://www.saastr.com/" },
-      { "title": "Lenny's Newsletter", "xmlUrl": "https://www.lennysnewsletter.com/feed", "htmlUrl": "https://www.lennysnewsletter.com/" },
-      { "title": "First Round Review", "xmlUrl": "https://review.firstround.com/feed.xml", "htmlUrl": "https://review.firstround.com/" },
+      {
+        "title": "SaaStr",
+        "xmlUrl": "https://www.saastr.com/feed/",
+        "htmlUrl": "https://www.saastr.com/"
+      },
+      {
+        "title": "Lenny's Newsletter",
+        "xmlUrl": "https://www.lennysnewsletter.com/feed",
+        "htmlUrl": "https://www.lennysnewsletter.com/"
+      },
+      {
+        "title": "First Round Review",
+        "xmlUrl": "https://review.firstround.com/feed.xml",
+        "htmlUrl": "https://review.firstround.com/"
+      },
       { "title": "a16z Blog", "xmlUrl": "https://a16z.com/feed/", "htmlUrl": "https://a16z.com/" }
     ]
   },
   "Sports": {
     "Formule 1": [
-      { "title": "The Race - F1", "xmlUrl": "https://the-race.com/feed/", "htmlUrl": "https://the-race.com/formula-1/" },
-      { "title": "RaceFans", "xmlUrl": "https://www.racefans.net/feed/", "htmlUrl": "https://www.racefans.net/" },
-      { "title": "ScarbsF1", "xmlUrl": "https://scarbsf1.wordpress.com/feed/", "htmlUrl": "https://scarbsf1.wordpress.com/" }
+      {
+        "title": "The Race - F1",
+        "xmlUrl": "https://the-race.com/feed/",
+        "htmlUrl": "https://the-race.com/formula-1/"
+      },
+      {
+        "title": "RaceFans",
+        "xmlUrl": "https://www.racefans.net/feed/",
+        "htmlUrl": "https://www.racefans.net/"
+      },
+      {
+        "title": "ScarbsF1",
+        "xmlUrl": "https://scarbsf1.wordpress.com/feed/",
+        "htmlUrl": "https://scarbsf1.wordpress.com/"
+      }
     ],
     "Motorsport": [
-      { "title": "DailySportsCar", "xmlUrl": "https://www.dailysportscar.com/feed", "htmlUrl": "https://www.dailysportscar.com/" },
-      { "title": "Autosport Motorsport", "xmlUrl": "https://www.autosport.com/rss/feed/f1", "htmlUrl": "https://www.autosport.com/" }
+      {
+        "title": "DailySportsCar",
+        "xmlUrl": "https://www.dailysportscar.com/feed",
+        "htmlUrl": "https://www.dailysportscar.com/"
+      },
+      {
+        "title": "Autosport Motorsport",
+        "xmlUrl": "https://www.autosport.com/rss/feed/f1",
+        "htmlUrl": "https://www.autosport.com/"
+      }
     ],
     "Baseball": [
-      { "title": "MLB Trade Rumors", "xmlUrl": "https://www.mlbtraderumors.com/feed", "htmlUrl": "https://www.mlbtraderumors.com/" },
-      { "title": "FanGraphs", "xmlUrl": "https://blogs.fangraphs.com/feed/", "htmlUrl": "https://blogs.fangraphs.com/" }
+      {
+        "title": "MLB Trade Rumors",
+        "xmlUrl": "https://www.mlbtraderumors.com/feed",
+        "htmlUrl": "https://www.mlbtraderumors.com/"
+      },
+      {
+        "title": "FanGraphs",
+        "xmlUrl": "https://blogs.fangraphs.com/feed/",
+        "htmlUrl": "https://blogs.fangraphs.com/"
+      }
     ],
     "Judo": [
-      { "title": "JudoInside", "xmlUrl": "https://www.judoinside.com/site/rss", "htmlUrl": "https://www.judoinside.com/" }
+      {
+        "title": "JudoInside",
+        "xmlUrl": "https://www.judoinside.com/site/rss",
+        "htmlUrl": "https://www.judoinside.com/"
+      }
     ]
   },
   "Actu Générale": {
     "France": [
-      { "title": "France Info - Titres", "xmlUrl": "https://www.francetvinfo.fr/titres.rss", "htmlUrl": "https://www.francetvinfo.fr/" },
-      { "title": "Le Monde - Une", "xmlUrl": "https://www.lemonde.fr/rss/une.xml", "htmlUrl": "https://www.lemonde.fr/" }
+      {
+        "title": "France Info - Titres",
+        "xmlUrl": "https://www.francetvinfo.fr/titres.rss",
+        "htmlUrl": "https://www.francetvinfo.fr/"
+      },
+      {
+        "title": "Le Monde - Une",
+        "xmlUrl": "https://www.lemonde.fr/rss/une.xml",
+        "htmlUrl": "https://www.lemonde.fr/"
+      }
     ],
     "International": [
-      { "title": "BBC World", "xmlUrl": "http://feeds.bbci.co.uk/news/world/rss.xml", "htmlUrl": "https://www.bbc.com/news/world" }
+      {
+        "title": "BBC World",
+        "xmlUrl": "http://feeds.bbci.co.uk/news/world/rss.xml",
+        "htmlUrl": "https://www.bbc.com/news/world"
+      }
     ]
   },
   "Tech Watch Light": {
     "Watch": [
-      { "title": "Hacker News Frontpage", "xmlUrl": "https://hnrss.org/frontpage", "htmlUrl": "https://news.ycombinator.com/" },
-      { "title": "Echo JS", "xmlUrl": "http://www.echojs.com/rss", "htmlUrl": "http://www.echojs.com/" },
+      {
+        "title": "Hacker News Frontpage",
+        "xmlUrl": "https://hnrss.org/frontpage",
+        "htmlUrl": "https://news.ycombinator.com/"
+      },
+      {
+        "title": "Echo JS",
+        "xmlUrl": "http://www.echojs.com/rss",
+        "htmlUrl": "http://www.echojs.com/"
+      },
       { "title": "Lobsters", "xmlUrl": "https://lobste.rs/rss", "htmlUrl": "https://lobste.rs/" }
     ]
   }
