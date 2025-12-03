@@ -23,13 +23,13 @@ This generates a `feedly.opml` file in the current directory that can be importe
 
 ## Feed Categories
 
-| Category | Subcategories |
-|----------|---------------|
-| Tech | Web & Software, Cloud & DevOps, Architecture & Engineering, Data & AI, Security |
-| Business | Freelance & Productivity, Market & Finance, SaaS & Entrepreneurship |
-| Sports | Formule 1, Motorsport, Baseball, Judo |
-| Actu Générale | France, International |
-| Tech Watch Light | Watch |
+| Category         | Subcategories                                                                   |
+| ---------------- | ------------------------------------------------------------------------------- |
+| Tech             | Web & Software, Cloud & DevOps, Architecture & Engineering, Data & AI, Security |
+| Business         | Freelance & Productivity, Market & Finance, SaaS & Entrepreneurship             |
+| Sports           | Formule 1, Motorsport, Baseball, Judo                                           |
+| Actu Générale    | France, International                                                           |
+| Tech Watch Light | Watch                                                                           |
 
 ## Adding or Modifying Feeds
 
