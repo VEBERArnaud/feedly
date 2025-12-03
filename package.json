@@ -7,7 +7,9 @@
   "scripts": {
     "build": "tsc",
     "generate": "tsx src/index.ts",
-    "test": "echo \"No tests yet\" && exit 0",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "format": "prettier --write .",
@@ -36,6 +38,7 @@
   "devDependencies": {
     "@eslint/js": "^9.18.0",
     "@types/node": "^22.15.0",
+    "@vitest/coverage-v8": "^4.0.15",
     "eslint": "^9.18.0",
     "eslint-config-prettier": "^10.0.1",
     "husky": "^9.1.7",
@@ -43,6 +46,7 @@
     "prettier": "^3.4.2",
     "tsx": "^4.19.0",
     "typescript": "^5.7.2",
-    "typescript-eslint": "^8.25.0"
+    "typescript-eslint": "^8.25.0",
+    "vitest": "^4.0.15"
   }
 }

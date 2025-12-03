@@ -29,7 +29,7 @@ function isValidFeed(feed: unknown): feed is Feed {
 export function validateFeeds(data: unknown): ValidationResult {
   const errors: ValidationError[] = [];
 
-  if (typeof data !== "object" || data === null) {
+  if (typeof data !== "object" || data === null || Array.isArray(data)) {
     return {
       success: false,
       errors: [{ path: "root", message: "feeds.json must be an object" }],
