@@ -7,7 +7,7 @@ import { buildNestedOpml, buildOpml } from "./opml-builder.js";
 
 const OPML_TITLE = "Feedly Arnaud 2-level architecture";
 const FLAT_OUTPUT = "feedly.opml";
-const NESTED_OUTPUT = "feedly-nested.opml";
+const NESTED_OUTPUT = "feedme-nested.opml";
 
 const __dirname = fileURLToPath(new URL(".", import.meta.url));
 

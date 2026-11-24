@@ -12,7 +12,7 @@
             "label": "Feedly OPML"
           },
           {
-            "path": "feedly-nested.opml",
+            "path": "feedme-nested.opml",
             "label": "Nested OPML"
           }
         ]

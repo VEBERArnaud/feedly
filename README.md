@@ -29,7 +29,7 @@ npm run generate
 This generates two files in the current directory:
 
 - `feedly.opml`: one `Category / Subcategory` folder per subcategory, to import into Feedly, which only supports one level of folders.
-- `feedly-nested.opml`: each category is a folder containing its subcategories, to import into readers that support nested folders.
+- `feedme-nested.opml`: each category is a folder containing its subcategories, to import into readers that support nested folders.
 
 ## Development
 

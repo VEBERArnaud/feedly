@@ -10,7 +10,7 @@ A TypeScript/Node.js tool that generates OPML files for importing RSS feeds into
 
 ```bash
 npm install          # Install dependencies
-npm run generate     # Generate feedly.opml (flat) and feedly-nested.opml
+npm run generate     # Generate feedly.opml (flat) and feedme-nested.opml
 npm run build        # Compile TypeScript to dist/
 npm run test         # Run tests
 npm run test:watch   # Run tests in watch mode
