@@ -10,7 +10,7 @@ A TypeScript/Node.js tool that generates OPML files for importing RSS feeds into
 
 ```bash
 npm install          # Install dependencies
-npm run generate     # Generate feedly.opml
+npm run generate     # Generate feedly.opml (flat) and feedly-nested.opml
 npm run build        # Compile TypeScript to dist/
 npm run test         # Run tests
 npm run test:watch   # Run tests in watch mode
@@ -50,8 +50,8 @@ The validator rejects invalid structures with detailed error messages.
 On push to main, GitHub Actions:
 
 1. Runs lint, format check, tests, and build
-2. Generates the OPML file
-3. Creates a release with the OPML file attached via semantic-release
+2. Generates the OPML files
+3. Creates a release with the OPML files attached via semantic-release
 
 Pull requests trigger the test job only.
 

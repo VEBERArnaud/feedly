@@ -3,9 +3,11 @@ import { join } from "node:path";
 import { fileURLToPath } from "node:url";
 
 import { validateFeeds } from "./validator.js";
-import { buildOpml } from "./opml-builder.js";
+import { buildNestedOpml, buildOpml } from "./opml-builder.js";
 
 const OPML_TITLE = "Feedly Arnaud 2-level architecture";
+const FLAT_OUTPUT = "feedly.opml";
+const NESTED_OUTPUT = "feedly-nested.opml";
 
 const __dirname = fileURLToPath(new URL(".", import.meta.url));
 
@@ -17,6 +19,16 @@ function loadFeeds(): unknown {
   const content = readFileSync(feedsPath, "utf-8");
 
   return JSON.parse(content) as unknown;
+}
+
+/**
+ * Writes an OPML document in the current directory
+ */
+function writeOpml(fileName: string, opml: string): void {
+  const outputPath = join(process.cwd(), fileName);
+
+  writeFileSync(outputPath, opml, "utf-8");
+  console.log(`OPML file generated: ${outputPath}`);
 }
 
 /**
@@ -36,11 +48,8 @@ function main(): void {
     process.exit(1);
   }
 
-  const opml = buildOpml(OPML_TITLE, validationResult.data);
-  const outputPath = join(process.cwd(), "feedly.opml");
-
-  writeFileSync(outputPath, opml, "utf-8");
-  console.log(`OPML file generated: ${outputPath}`);
+  writeOpml(FLAT_OUTPUT, buildOpml(OPML_TITLE, validationResult.data));
+  writeOpml(NESTED_OUTPUT, buildNestedOpml(OPML_TITLE, validationResult.data));
 }
 
 main();

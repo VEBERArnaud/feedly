@@ -10,6 +10,10 @@
           {
             "path": "feedly.opml",
             "label": "Feedly OPML"
+          },
+          {
+            "path": "feedly-nested.opml",
+            "label": "Nested OPML"
           }
         ]
       }

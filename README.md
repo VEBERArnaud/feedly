@@ -5,7 +5,7 @@ A TypeScript tool that generates OPML files for importing RSS feeds into Feedly 
 ## Features
 
 - Generates valid OPML 2.0 files
-- Organizes feeds in a `Category / Subcategory` folder structure
+- Organizes feeds in a `Category / Subcategory` folder structure, flat or nested
 - Properly escapes XML special characters
 - Validates feed structure with detailed error messages
 - Includes curated feeds across Tech, Business, Sports, and News categories
@@ -26,7 +26,10 @@ npm install
 npm run generate
 ```
 
-This generates a `feedly.opml` file in the current directory that can be imported into Feedly.
+This generates two files in the current directory:
+
+- `feedly.opml`: one `Category / Subcategory` folder per subcategory, to import into Feedly, which only supports one level of folders.
+- `feedly-nested.opml`: each category is a folder containing its subcategories, to import into readers that support nested folders.
 
 ## Development
 
