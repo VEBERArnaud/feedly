@@ -1,5 +1,6 @@
 # Output
 feedly.opml
+feedme-nested.opml
 dist/
 
 # Dependencies

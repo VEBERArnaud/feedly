@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { buildOpml } from "../src/opml-builder.js";
+import { buildNestedOpml, buildOpml } from "../src/opml-builder.js";
 import type { FeedsData } from "../src/types.js";
 
 describe("buildOpml", () => {
@@ -159,5 +159,75 @@ describe("buildOpml", () => {
     expect(opml).toContain("Feed 1");
     expect(opml).toContain("Feed 2");
     expect(opml).toContain("Feed 3");
+  });
+});
+
+describe("buildNestedOpml", () => {
+  it("should nest feeds in subcategories in categories", () => {
+    const feeds: FeedsData = {
+      Tech: {
+        Web: [
+          { title: "Web 1", xmlUrl: "https://web.com/1", htmlUrl: "https://web.com" },
+          { title: "Web 2", xmlUrl: "https://web.com/2", htmlUrl: "https://web.com" },
+        ],
+        Cloud: [{ title: "Cloud", xmlUrl: "https://cloud.com/feed", htmlUrl: "https://cloud.com" }],
+      },
+      Business: {
+        Finance: [{ title: "Fin", xmlUrl: "https://fin.com/feed", htmlUrl: "https://fin.com" }],
+      },
+    };
+
+    expect(buildNestedOpml("Test", feeds)).toBe(
+      [
+        '<?xml version="1.0" encoding="UTF-8"?>',
+        '<opml version="2.0">',
+        "  <head>",
+        "    <title>Test</title>",
+        "  </head>",
+        "  <body>",
+        '    <outline text="Tech" title="Tech">',
+        '      <outline text="Web" title="Web">',
+        '        <outline type="rss" text="Web 1" title="Web 1" xmlUrl="https://web.com/1" htmlUrl="https://web.com"/>',
+        '        <outline type="rss" text="Web 2" title="Web 2" xmlUrl="https://web.com/2" htmlUrl="https://web.com"/>',
+        "      </outline>",
+        '      <outline text="Cloud" title="Cloud">',
+        '        <outline type="rss" text="Cloud" title="Cloud" xmlUrl="https://cloud.com/feed" htmlUrl="https://cloud.com"/>',
+        "      </outline>",
+        "    </outline>",
+        '    <outline text="Business" title="Business">',
+        '      <outline text="Finance" title="Finance">',
+        '        <outline type="rss" text="Fin" title="Fin" xmlUrl="https://fin.com/feed" htmlUrl="https://fin.com"/>',
+        "      </outline>",
+        "    </outline>",
+        "  </body>",
+        "</opml>",
+      ].join("\n")
+    );
+  });
+
+  it("should escape special characters in title, folder names and feed data", () => {
+    const feeds: FeedsData = {
+      "Tech & More": {
+        'Web "Dev"': [
+          { title: "Feed <1>", xmlUrl: "https://example.com/?a=1&b=2", htmlUrl: "https://e.com" },
+        ],
+      },
+    };
+
+    const opml = buildNestedOpml("Test & <Demo>", feeds);
+
+    expect(opml).toContain("<title>Test &amp; &lt;Demo&gt;</title>");
+    expect(opml).toContain('text="Tech &amp; More"');
+    expect(opml).toContain('text="Web &quot;Dev&quot;"');
+    expect(opml).toContain('text="Feed &lt;1&gt;"');
+    expect(opml).toContain("a=1&amp;b=2");
+  });
+
+  it("should handle empty feeds object", () => {
+    const opml = buildNestedOpml("Empty", {});
+
+    expect(opml).toContain("<body>");
+    expect(opml).toContain("</body>");
+    expect(opml).not.toContain("<outline");
   });
 });
