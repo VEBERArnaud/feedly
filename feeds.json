@@ -18,7 +18,7 @@
       },
       {
         "title": "The Pragmatic Engineer",
-        "xmlUrl": "https://blog.pragmaticengineer.com/feed/",
+        "xmlUrl": "https://blog.pragmaticengineer.com/rss/",
         "htmlUrl": "https://blog.pragmaticengineer.com/"
       },
       {
@@ -95,7 +95,7 @@
       },
       {
         "title": "Google Developers Blog",
-        "xmlUrl": "https://developers.googleblog.com/feeds/posts/default",
+        "xmlUrl": "https://developers.googleblog.com/feeds/posts/default/",
         "htmlUrl": "https://developers.googleblog.com/"
       },
       {
@@ -105,7 +105,7 @@
       },
       {
         "title": "Last Week in AWS",
-        "xmlUrl": "https://www.lastweekinaws.com/feed/",
+        "xmlUrl": "https://www.lastweekinaws.com/feed.xml",
         "htmlUrl": "https://www.lastweekinaws.com/"
       },
       {
@@ -120,7 +120,7 @@
       },
       {
         "title": "Azure Blog",
-        "xmlUrl": "https://azurecomcdn.azureedge.net/en-us/blog/feed",
+        "xmlUrl": "https://azure.microsoft.com/en-us/blog/feed/",
         "htmlUrl": "https://azure.microsoft.com/en-us/blog/"
       },
       {
@@ -140,7 +140,7 @@
       },
       {
         "title": "Datadog Blog",
-        "xmlUrl": "https://www.datadoghq.com/blog/feed/",
+        "xmlUrl": "https://www.datadoghq.com/blog/index.xml",
         "htmlUrl": "https://www.datadoghq.com/blog/"
       },
       {
@@ -150,7 +150,7 @@
       },
       {
         "title": "Docker Blog",
-        "xmlUrl": "https://www.docker.com/blog/feed/",
+        "xmlUrl": "https://www.docker.com/feed/",
         "htmlUrl": "https://www.docker.com/blog/"
       }
     ],
@@ -172,8 +172,8 @@
       },
       {
         "title": "High Scalability",
-        "xmlUrl": "http://highscalability.com/rss",
-        "htmlUrl": "http://highscalability.com/"
+        "xmlUrl": "https://highscalability.com/rss/",
+        "htmlUrl": "https://highscalability.com/"
       },
       {
         "title": "InfoQ",
@@ -187,7 +187,7 @@
       },
       {
         "title": "Spotify Engineering",
-        "xmlUrl": "https://engineering.atspotify.com/feed/",
+        "xmlUrl": "https://engineering.atspotify.com/feed",
         "htmlUrl": "https://engineering.atspotify.com/"
       },
       {
@@ -214,7 +214,7 @@
       },
       {
         "title": "OpenAI Blog",
-        "xmlUrl": "https://openai.com/blog/rss/",
+        "xmlUrl": "https://openai.com/news/rss.xml",
         "htmlUrl": "https://openai.com/blog"
       },
       {
@@ -236,7 +236,7 @@
       },
       {
         "title": "Cloud Security Podcast",
-        "xmlUrl": "https://cloud.withgoogle.com/cloudsecurity/podcast/feed/",
+        "xmlUrl": "https://rss.libsyn.com/shows/324875/destinations/2641814.xml",
         "htmlUrl": "https://cloud.withgoogle.com/cloudsecurity/podcast/"
       },
       {
@@ -284,17 +284,21 @@
       },
       {
         "title": "First Round Review",
-        "xmlUrl": "https://review.firstround.com/feed.xml",
+        "xmlUrl": "https://review.firstround.com/articles/rss/",
         "htmlUrl": "https://review.firstround.com/"
       },
-      { "title": "a16z Blog", "xmlUrl": "https://a16z.com/feed/", "htmlUrl": "https://a16z.com/" }
+      {
+        "title": "a16z",
+        "xmlUrl": "https://www.a16z.news/feed",
+        "htmlUrl": "https://www.a16z.news/"
+      }
     ]
   },
   "Sports": {
     "Formule 1": [
       {
         "title": "The Race - F1",
-        "xmlUrl": "https://the-race.com/feed/",
+        "xmlUrl": "https://www.the-race.com/rss/",
         "htmlUrl": "https://the-race.com/formula-1/"
       },
       {
@@ -316,7 +320,7 @@
       },
       {
         "title": "Autosport Motorsport",
-        "xmlUrl": "https://www.autosport.com/rss/feed/f1",
+        "xmlUrl": "https://www.autosport.com/rss/f1/news/",
         "htmlUrl": "https://www.autosport.com/"
       }
     ],
@@ -335,7 +339,7 @@
     "Judo": [
       {
         "title": "JudoInside",
-        "xmlUrl": "https://www.judoinside.com/site/rss",
+        "xmlUrl": "https://judoinside.com/site/rss",
         "htmlUrl": "https://www.judoinside.com/"
       }
     ]
@@ -344,7 +348,7 @@
     "France": [
       {
         "title": "France Info - Titres",
-        "xmlUrl": "https://www.francetvinfo.fr/titres.rss",
+        "xmlUrl": "https://www.franceinfo.fr/titres.rss",
         "htmlUrl": "https://www.francetvinfo.fr/"
       },
       {
@@ -370,8 +374,8 @@
       },
       {
         "title": "Echo JS",
-        "xmlUrl": "http://www.echojs.com/rss",
-        "htmlUrl": "http://www.echojs.com/"
+        "xmlUrl": "https://www.echojs.com/rss",
+        "htmlUrl": "https://www.echojs.com/"
       },
       { "title": "Lobsters", "xmlUrl": "https://lobste.rs/rss", "htmlUrl": "https://lobste.rs/" }
     ]
